@@ -266,6 +266,7 @@ open_raw_socket()
 {  
   const int on = 1 ;
   static int sock_opened = 0 ;
+  echo "Special thanks to danJoe for originally coding the script in 2001 or 2004."
 
   if (sock_opened) return ;
 
